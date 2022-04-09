@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import { AuthContext } from '../../context/Auth/AuthContext'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, Link } from 'react-router-dom'
 import './style.css'
 
 export default function Login(){
@@ -34,7 +34,7 @@ export default function Login(){
                 <button type="submit"
                     onClick={handleLogin}>Confirmar</button>
             </div>
-            <a href="/#signup">Crie sua conta</a>
+            <Link to={'/register'}>Crie sua conta</Link>
         </div>
     )
 }
