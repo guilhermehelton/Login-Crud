@@ -1,0 +1,25 @@
+.home {
+    background-color: #414141;
+    color: #fff;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #CA3E47;
+}
+
+.link-block .link {
+    color: #fff;
+    margin: 10px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.register {
+    text-decoration: none;
+    background-color: #CA3E47;
+    padding: 0.5em;
+}
