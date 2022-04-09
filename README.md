@@ -2,7 +2,7 @@
 Tela de Login/Crud usando React e PostgreSQL com a ORM Sequelize
 
 <div style="display: flex;">
-  <div>
+  <div style="width: 50px">
     <h2>Home Page</h2>
     <img src="https://user-images.githubusercontent.com/76913525/162576112-d761aded-0d3f-4b34-ab8d-ebf3fe3e6d7f.png" alt="Home Page"/>
   </div>
